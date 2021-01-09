@@ -33,9 +33,12 @@ header, nav, main, footer {
         /* saddle brown */
         color: #8B4513;
 }
+hr {
+    margin-bottom: 15px;
+}
 h2, nav {
     font-size: 1rem;
-    border-bottom: 1px solid #999;
+    /* border-bottom: 1px solid #999; */
     margin-bottom: 0.5rem;
     color: midnightblue;
 }
