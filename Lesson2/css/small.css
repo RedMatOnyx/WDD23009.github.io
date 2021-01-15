@@ -10,15 +10,18 @@ body {
     font-family: 'Kufam', cursive;
 }
 h1, h2 {
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
     margin: 0.15rem;
     color: #8B4513;
     font-family: 'Kufam', cursive;
 }
+
 h2 {
-    font-size: 1rem;
+    /* font-size: 1rem; */
     border-bottom: 1px solid #999;
     margin-bottom: 0.5rem;
+    /* background-color: #F5DEB3; */
+    padding: 5px;
 }
 header, nav, main, footer {
     background-color: white;
@@ -28,7 +31,7 @@ header, nav, main, footer {
     color: #8B4513;
 }
 h2, nav {
-    font-size: 1rem;
+    /* font-size: 1rem; */
     margin-bottom: 0.5rem;
     color: midnightblue;
 }
@@ -47,6 +50,7 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     font-size: 0.8rem;
+    grid-gap: 12px;
 }
 main section picture img {
     display: block;
@@ -60,6 +64,9 @@ img {
 }
 main section {
     padding: 0 1rem;
+}
+section {
+    border: solid black 1px;
 }
 ul {
     font-family: 'Kufam', cursive;
